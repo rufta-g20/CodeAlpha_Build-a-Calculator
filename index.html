@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    
+    <title>
+      RG Calculator
+    </title>
+    <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calc">
+        <form onsubmit="return false; ">
+          <div class="display">
+            <input type="text" id="display" readonly>
+          </div>
+          <div>
+            <input type="button" value="C" class="clear" onclick="clearDisplay()">
+            <input type="button" value="Del" onclick="deleteLast()" class="delete">
+            <input type="button" value="%" onclick="appendValue('%')" class="operator">
+            <input type="button" value="÷" onclick="appendValue('/')" class="operator">
+          </div>
+          <div>
+            <input type="button" value="7" onclick="appendValue('7')">
+            <input type="button" value="8" onclick="appendValue('8')">
+            <input type="button" value="9" onclick="appendValue('9')">
+            <input type="button" value="×" onclick="appendValue('*')" class="operator">
+          </div>
+          <div>
+            <input type="button" value="4" onclick="appendValue('4')">
+            <input type="button" value="5" onclick="appendValue('5')">
+            <input type="button" value="6" onclick="appendValue('6')">
+            <input type="button" value="-" onclick="appendValue('-')" class="operator">
+          </div>
+          <div>
+            <input type="button" value="1" onclick="appendValue('1')">
+            <input type="button" value="2" onclick="appendValue('2')">
+            <input type="button" value="3" onclick="appendValue('3')">
+            <input type="button" value="+" onclick="appendValue('+')" class="operator">
+          </div>
+          <div>
+            <input type="button" value="0" onclick="appendValue('0')">
+            <input type="button" value="." onclick="appendValue('.')" class="operator">
+            <input type="button" value="( )" onclick="addBracket()" class="operator">
+            <input type="button" value="=" onclick="calculate()" class="operator">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
