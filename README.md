@@ -17,7 +17,13 @@ https://rufta-g20.github.io/CodeAlpha_Build-a-Calculator/
 - Clean, responsive UI.
 
 ## 🛠️ Tech Stack
-- HTML5 • CSS3 • Vanilla JavaScript
+- HTML5  
+- CSS3  
+- Vanilla JavaScript
 
 ## 📂 How to Run
 1. Download or clone:
+   ```bash
+   git clone https://github.com/rufta-g20/CodeAlpha_Build-a-Calculator.git
+   ```
+   2. Open index.html in your browser.
