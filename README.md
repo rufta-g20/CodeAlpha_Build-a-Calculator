@@ -22,7 +22,8 @@ https://rufta-g20.github.io/CodeAlpha_Build-a-Calculator/
 - Vanilla JavaScript
 
 ## 📂 How to Run
-1. Download or clone: ```bash
+1. Download or clone:
+```bash
    https://github.com/rufta-g20/CodeAlpha_Build-a-Calculator.git
    ```
 2. Open index.html in your browser.
